@@ -3,6 +3,8 @@
 ============================
 The purpose of this board is to provide 5V DC power to all connected CAN bus devices on the L3X-Z hexapod (except the Rasperry Pi).
 
+![l3xz-hw_can_power_injector rendering](docs/images/l3xz-hw_can_power_injector_rendering.png)
+
 #### Blockdiagram
 <p align="center">
   <img src="can-power-injector-block-diagram.jpg" width="50%">
@@ -25,3 +27,13 @@ The purpose of this board is to provide 5V DC power to all connected CAN bus dev
 | Name | Connector |
 |-|-|
 | CAN | JST GH 1.25mm 4-pin. |
+
+## PCB
+
+### Top
+
+![l3xz-hw_can_power_injector PCB top](docs/images/l3xz-hw_can_power_injector_top.png)
+
+### Bottom
+
+![l3xz-hw_can_power_injector PCB bot](docs/images/l3xz-hw_can_power_injector_bot.png)
