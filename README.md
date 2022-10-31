@@ -3,6 +3,10 @@
 ============================
 The purpose of this board is to provide 5V DC power to all connected CAN bus devices on the L3X-Z hexapod (except the Rasperry Pi).
 
+<p align="center">
+  <a href="https://github.com/107-systems/l3xz"><img src="https://raw.githubusercontent.com/107-systems/.github/main/logo/l3xz-logo-memento-mori-github.png" width="40%"></a>
+</p>
+
 ![l3xz-hw_can_power_injector rendering](docs/images/l3xz-hw_can_power_injector_rendering.png)
 
 #### Blockdiagram
