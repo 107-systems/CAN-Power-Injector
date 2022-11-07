@@ -17,12 +17,10 @@ The purpose of this board is to provide 5V DC power to all connected CAN bus dev
 #### Electrical Parameters
 | Name | Value |
 |-|-|
-| V_BAT_IN | 13.0 - 16.8 V|
-| V_CAN_OUT | 5.0 V |
-| I_CAN_OUT,CONTINOUS | 3.0 A |
-
 | V_IN min | 10.5 V | set by resistor devider(R7/R8) |
 | V_IN max | 40.0 V | limited by TVS diode (D4) |
+| V_CAN_OUT | 5.0 V |
+| I_CAN_OUT,CONTINOUS | 3.0 A |
 
 #### Inputs
 | Name | Connector |
