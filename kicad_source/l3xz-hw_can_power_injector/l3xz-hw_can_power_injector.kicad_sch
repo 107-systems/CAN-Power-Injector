@@ -6,7 +6,7 @@
 
   (title_block
     (title "l3xz-hw_can_power_injector")
-    (date "2022-11-06")
+    (date "2022-11-30")
     (rev "0.1")
     (company "107-systems")
   )
@@ -1780,7 +1780,7 @@
   )
 
   (symbol (lib_id "generationmake:Label") (at 261.62 156.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 03c2a0ad-6922-4fa5-9a56-bcd869881ef1)
     (property "Reference" "L2" (id 0) (at 265.43 154.9399 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1906,7 +1906,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 21.59 189.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 1e5f82a3-3ad8-404f-a262-3c0e3dd26392)
     (property "Reference" "H1" (id 0) (at 24.13 186.6899 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2018,7 +2018,7 @@
     (property "Reference" "D3" (id 0) (at 158.75 88.8364 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "LED_Small" (id 1) (at 158.75 91.3764 90)
+    (property "Value" "LED green" (id 1) (at 158.75 91.3764 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (id 2) (at 156.21 90.17 90)
@@ -2051,7 +2051,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2f54f438-5d34-4db6-a425-bb6ed0e0f809)
     (property "Reference" "L1" (id 0) (at 111.76 64.77 90))
-    (property "Value" "10 uH" (id 1) (at 111.76 67.31 90))
+    (property "Value" "7443251000 (10 uH)" (id 1) (at 111.76 67.31 90))
     (property "Footprint" "Inductor_SMD:L_Wuerth_HCI-1050" (id 2) (at 111.76 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2178,7 +2178,7 @@
     (property "Reference" "C9" (id 0) (at 259.08 62.2362 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (id 1) (at 259.08 64.7762 0)
+    (property "Value" "100 nF" (id 1) (at 259.08 64.7762 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 256.54 63.5 0)
@@ -2425,7 +2425,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 93.98 189.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 6ccc8a5a-a367-448b-88ae-20fe987368c8)
     (property "Reference" "H4" (id 0) (at 96.52 186.6899 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2629,7 +2629,7 @@
     (property "Reference" "C11" (id 0) (at 259.08 118.1162 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (id 1) (at 259.08 120.6562 0)
+    (property "Value" "100 nF" (id 1) (at 259.08 120.6562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 256.54 119.38 0)
@@ -2646,7 +2646,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8a3827e6-26b6-4873-9005-56e501165c36)
     (property "Reference" "CN4" (id 0) (at 21.59 21.59 0))
-    (property "Value" "Conn_01x02" (id 1) (at 21.59 24.13 0))
+    (property "Value" "Powerpole_2" (id 1) (at 21.59 24.13 0))
     (property "Footprint" "generationmake:POWERPOLE_hor_2" (id 2) (at 21.59 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2811,7 +2811,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 69.85 189.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid a7414f14-d726-497a-98b6-23d68fe7e94c)
     (property "Reference" "H3" (id 0) (at 72.39 186.6899 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3026,7 +3026,7 @@
   )
 
   (symbol (lib_id "generationmake:Label") (at 261.62 161.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid d082734d-ae95-481b-9a5f-c2add0f0313d)
     (property "Reference" "L3" (id 0) (at 265.43 160.0199 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3143,7 +3143,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 45.72 189.23 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid e6d2fcfc-1263-4897-a523-13b222749fd1)
     (property "Reference" "H2" (id 0) (at 48.26 186.6899 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3499,13 +3499,13 @@
       (reference "C8") (unit 1) (value "47uF 10V") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/40fd1244-d027-4abc-a17d-3da295028d0c"
-      (reference "C9") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C9") (unit 1) (value "100 nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/4b87a511-f1ff-403b-82bb-48a1b6d84d3c"
       (reference "C10") (unit 1) (value "47uF 10V") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/8263f46b-91e2-4edf-a9b1-dab669402431"
-      (reference "C11") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C11") (unit 1) (value "100 nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/8150ddc6-6836-42ce-9cdd-33fbb4f9853f"
       (reference "C12") (unit 1) (value "220 uF / 50 V") (footprint "Capacitor_SMD:CP_Elec_10x10")
@@ -3535,7 +3535,7 @@
       (reference "CN3") (unit 1) (value "SM04B-GHS-TB") (footprint "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal")
     )
     (path "/8a3827e6-26b6-4873-9005-56e501165c36"
-      (reference "CN4") (unit 1) (value "Conn_01x02") (footprint "generationmake:POWERPOLE_hor_2")
+      (reference "CN4") (unit 1) (value "Powerpole_2") (footprint "generationmake:POWERPOLE_hor_2")
     )
     (path "/376c86d1-5d77-4c61-a230-7bb0b699818d"
       (reference "CN5") (unit 1) (value "SM04B-GHS-TB") (footprint "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal")
@@ -3553,7 +3553,7 @@
       (reference "D2") (unit 1) (value "B520C") (footprint "Diode_SMD:D_SMC")
     )
     (path "/2cb2d04c-0cc5-487d-8f84-20c79a27fb91"
-      (reference "D3") (unit 1) (value "LED_Small") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D3") (unit 1) (value "LED green") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/a419651c-7676-4edd-aef0-649ff3d3b0c4"
       (reference "D4") (unit 1) (value "SMCJ40A") (footprint "Diode_SMD:D_SMC")
@@ -3571,7 +3571,7 @@
       (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
     )
     (path "/2f54f438-5d34-4db6-a425-bb6ed0e0f809"
-      (reference "L1") (unit 1) (value "10 uH") (footprint "Inductor_SMD:L_Wuerth_HCI-1050")
+      (reference "L1") (unit 1) (value "7443251000 (10 uH)") (footprint "Inductor_SMD:L_Wuerth_HCI-1050")
     )
     (path "/03c2a0ad-6922-4fa5-9a56-bcd869881ef1"
       (reference "L2") (unit 1) (value "Label") (footprint "generationmake:generationmake_small_silk")
