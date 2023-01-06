@@ -33,6 +33,12 @@ The purpose of this board is to provide 5V DC power to all connected CAN bus dev
 |-|-|
 | CAN | JST GH 1.25mm 4-pin. |
 
+## enclosure
+
+There exists a 3D printable enclosure to encapsulate the PCB.
+
+![l3xz-hw_can_power_injector enclosure](docs/images/l3xz-hw_can_power_injector_enclosure.png)
+
 ## PCB
 
 ### Top
