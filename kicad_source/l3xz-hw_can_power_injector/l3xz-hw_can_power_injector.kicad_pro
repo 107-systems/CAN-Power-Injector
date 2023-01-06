@@ -384,7 +384,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../l3xz-hw_can_power_injector.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
