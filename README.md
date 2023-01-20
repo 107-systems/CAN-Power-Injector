@@ -37,7 +37,13 @@ The purpose of this board is to provide 5V DC power to all connected CAN bus dev
 
 There exists a 3D printable enclosure to encapsulate the PCB.
 
+### standard
+
 ![l3xz-hw_can_power_injector enclosure](docs/images/l3xz-hw_can_power_injector_enclosure.png)
+
+### low profile
+
+![l3xz-hw_can_power_injector enclosure low profile](docs/images/l3xz-hw_can_power_injector_enclosure_lp.png)
 
 ## PCB
 
