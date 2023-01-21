@@ -19,19 +19,21 @@ The purpose of this board is to provide 5V DC power to all connected CAN bus dev
 |-|-|
 | V_IN min | 10.5 V | set by resistor devider(R7/R8) |
 | V_IN max | 40.0 V | limited by TVS diode (D4) |
-| V_CAN_OUT | 5.0 V |
-| I_CAN_OUT,CONTINOUS | 3.0 A |
+| V_CAN_OUT | 5.0 V to 5.5 V|
+| I_CAN_OUT,CONTINOUS | 5.0 A |
 
 #### Inputs
-| Name | Connector |
-|-|-|
-| Battery (4S / 4100 mAh LiFePo) | [Powerpole® PP15 to PP45](https://www.andersonpower.com/content/dam/app/ecommerce/product-pdfs/PP-Pak/ds-pp1545.pdf) |
-| CAN | JST GH 1.25mm 4-pin. |
+| Designator | Name | Connector |
+|-|-|-|
+| CN4 | Battery (4S / 4100 mAh LiFePo) | [Powerpole® PP15 to PP45](https://www.andersonpower.com/content/dam/app/ecommerce/product-pdfs/PP-Pak/ds-pp1545.pdf) |
+| CN1 | Battery | 3.5 mm screw terminal (not populated) |
 
 #### Outputs
-| Name | Connector |
-|-|-|
-| CAN | JST GH 1.25mm 4-pin. |
+| Designator | Name | Connector |
+|-|-|-|
+| CN2 and CN3 | CAN channel 1 | JST GH 1.25mm 4-pin. |
+| CN5 and CN6 | CAN channel 2 | JST GH 1.25mm 4-pin. |
+| CN7 | 5V | 5V output, internal for testing (not populated) |
 
 ## enclosure
 
