@@ -7,7 +7,9 @@ The purpose of this board is to inject 5V DC power at up to 5A for powering CAN 
   <a href="https://github.com/107-systems/l3xz"><img src="https://raw.githubusercontent.com/107-systems/.github/main/logo/l3xz-logo-memento-mori-github.png" width="40%"></a>
 </p>
 
-![CAN-Power-Injector rendering](docs/images/CAN-Power-Injector_rendering.png)
+<p align="center">
+  <img src="docs/images/CAN-Power-Injector_rendering.png" width="50%">
+</p>
 
 #### Blockdiagram
 <p align="center">
@@ -35,24 +37,27 @@ The purpose of this board is to inject 5V DC power at up to 5A for powering CAN 
 | CN5 and CN6 | CAN channel 2 | JST GH 1.25mm 4-pin. |
 | CN7 | 5V | 5V output, internal for testing (not populated) |
 
-## enclosure
+## Enclosure
 
 There exists a 3D printable enclosure to encapsulate the PCB.
 
-### standard
+### Standard
+<p align="center">
+  <img src="docs/images/CAN-Power-Injector_enclosure.png" width="50%">
+</p>
 
-![CAN-Power-Injector enclosure](docs/images/CAN-Power-Injector_enclosure.png)
-
-### low profile
-
-![CAN-Power-Injector enclosure low profile](docs/images/CAN-Power-Injector_enclosure_lp.png)
+### Low profile
+<p align="center">
+  <img src="docs/images/CAN-Power-Injector_enclosure_lp.png" width="50%">
+</p>
 
 ## PCB
-
 ### Top
-
-![CAN-Power-Injector PCB top](docs/images/CAN-Power-Injector_top.png)
+<p align="center">
+  <img src="docs/images/CAN-Power-Injector_top.png" width="50%">
+</p>
 
 ### Bottom
-
-![CAN-Power-Injector PCB bot](docs/images/CAN-Power-Injector_bot.png)
+<p align="center">
+  <img src="docs/images/CAN-Power-Injector_bot.png" width="50%">
+</p>
