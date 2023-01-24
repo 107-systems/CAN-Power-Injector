@@ -1,17 +1,19 @@
 <a href="https://107-systems.org/"><img align="right" src="https://raw.githubusercontent.com/107-systems/.github/main/logo/107-systems.png" width="15%"></a>
-`l3xz-hw_can_power_injector`
-============================
-The purpose of this board is to provide 5V DC power to all connected CAN bus devices on the L3X-Z hexapod (except the Rasperry Pi).
+`CAN-Power-Injector`
+====================
+The purpose of this board is to inject 5V DC power at up to 5A for powering CAN bus devices.
 
 <p align="center">
   <a href="https://github.com/107-systems/l3xz"><img src="https://raw.githubusercontent.com/107-systems/.github/main/logo/l3xz-logo-memento-mori-github.png" width="40%"></a>
 </p>
 
-![l3xz-hw_can_power_injector rendering](docs/images/l3xz-hw_can_power_injector_rendering.png)
+<p align="center">
+  <img src="docs/images/CAN-Power-Injector_rendering.png" width="50%">
+</p>
 
 #### Blockdiagram
 <p align="center">
-  <img src="can-power-injector-block-diagram.jpg" width="50%">
+  <img src="CAN-Power-Injector.jpg" width="50%">
 </p>
 
 #### Electrical Parameters
@@ -35,24 +37,27 @@ The purpose of this board is to provide 5V DC power to all connected CAN bus dev
 | CN5 and CN6 | CAN channel 2 | JST GH 1.25mm 4-pin. |
 | CN7 | 5V | 5V output, internal for testing (not populated) |
 
-## enclosure
+## Enclosure
 
 There exists a 3D printable enclosure to encapsulate the PCB.
 
-### standard
+### Standard
+<p align="center">
+  <img src="docs/images/CAN-Power-Injector_enclosure.png" width="50%">
+</p>
 
-![l3xz-hw_can_power_injector enclosure](docs/images/l3xz-hw_can_power_injector_enclosure.png)
-
-### low profile
-
-![l3xz-hw_can_power_injector enclosure low profile](docs/images/l3xz-hw_can_power_injector_enclosure_lp.png)
+### Low profile
+<p align="center">
+  <img src="docs/images/CAN-Power-Injector_enclosure_lp.png" width="50%">
+</p>
 
 ## PCB
-
 ### Top
-
-![l3xz-hw_can_power_injector PCB top](docs/images/l3xz-hw_can_power_injector_top.png)
+<p align="center">
+  <img src="docs/images/CAN-Power-Injector_top.png" width="50%">
+</p>
 
 ### Bottom
-
-![l3xz-hw_can_power_injector PCB bot](docs/images/l3xz-hw_can_power_injector_bot.png)
+<p align="center">
+  <img src="docs/images/CAN-Power-Injector_bot.png" width="50%">
+</p>
