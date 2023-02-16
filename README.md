@@ -1,6 +1,8 @@
 <a href="https://107-systems.org/"><img align="right" src="https://raw.githubusercontent.com/107-systems/.github/main/logo/107-systems.png" width="15%"></a>
 `CAN-Power-Injector`
 ====================
+[![Spell Check status](https://github.com/107-systems/CAN-Power-Injector/actions/workflows/spell-check.yml/badge.svg)](https://github.com/107-systems/CAN-Power-Injector/actions/workflows/spell-check.yml)
+
 The purpose of this board is to inject 5V DC power at up to 5A for powering CAN bus devices.
 
 <p align="center">
