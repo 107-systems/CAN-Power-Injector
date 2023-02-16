@@ -19,10 +19,10 @@ The purpose of this board is to inject 5V DC power at up to 5A for powering CAN 
 #### Electrical Parameters
 | Name | Value |
 |-|-|
-| V_IN min | 10.5 V | set by resistor devider(R7/R8) |
+| V_IN min | 10.5 V | set by resistor divider(R7/R8) |
 | V_IN max | 40.0 V | limited by TVS diode (D4) |
 | V_CAN_OUT | 5.0 V to 5.5 V|
-| I_CAN_OUT,CONTINOUS | 5.0 A |
+| I_CAN_OUT,CONTINUOUS | 5.0 A |
 
 #### Inputs
 | Designator | Name | Connector |
