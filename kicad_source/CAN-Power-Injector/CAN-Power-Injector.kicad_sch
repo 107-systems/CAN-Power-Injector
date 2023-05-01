@@ -6,8 +6,8 @@
 
   (title_block
     (title "CAN-Power-Injector")
-    (date "2022-12-12")
-    (rev "0.1")
+    (date "2023-05-01")
+    (rev "0.1.1")
     (company "107-systems")
   )
 
@@ -1638,7 +1638,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bf2042cb-4d19-4e6e-860b-6a0e35c6a13a)
   )
-  (text "VCC set to 5.6 V" (at 34.29 64.77 0)
+  (text "VCC set to 5.2 V" (at 34.29 64.77 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fac93b6f-9ee2-4bf1-9eb6-4b87b50f1f2f)
   )
@@ -3282,7 +3282,7 @@
     (property "Reference" "R5" (id 0) (at 57.15 59.6899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "120k" (id 1) (at 57.15 62.2299 0)
+    (property "Value" "110k" (id 1) (at 57.15 62.2299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 54.61 60.96 0)
@@ -3612,7 +3612,7 @@
       (reference "R4") (unit 1) (value "2k2") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/efa5b69a-6ade-4964-9f49-dce704c2cbaa"
-      (reference "R5") (unit 1) (value "120k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R5") (unit 1) (value "110k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/71ec15c8-fc95-422b-90ce-e728a02a7d17"
       (reference "R6") (unit 1) (value "20k") (footprint "Resistor_SMD:R_0603_1608Metric")
