@@ -6,8 +6,8 @@
 
   (title_block
     (title "CAN-Power-Injector")
-    (date "2022-12-12")
-    (rev "0.1")
+    (date "2023-05-01")
+    (rev "0.1.1")
     (company "107-systems")
   )
 
@@ -1638,7 +1638,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bf2042cb-4d19-4e6e-860b-6a0e35c6a13a)
   )
-  (text "VCC set to 5.6 V" (at 34.29 64.77 0)
+  (text "VCC set to 5.2 V" (at 34.29 64.77 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fac93b6f-9ee2-4bf1-9eb6-4b87b50f1f2f)
   )
@@ -1646,7 +1646,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fce09650-6f2c-48ea-821e-555798d85745)
   )
-  (text "SS set to 10 ms" (at 30.48 78.74 0)
+  (text "SS set to 5.28 ms" (at 30.48 78.74 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fdde3fc5-9c20-4673-ba9a-f04eefa20b3b)
   )
@@ -1872,7 +1872,7 @@
     (property "Reference" "C17" (id 0) (at 36.83 85.0835 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10nF" (id 1) (at 36.83 87.6235 0)
+    (property "Value" "33nF" (id 1) (at 36.83 87.6235 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (id 2) (at 39.37 86.36 0)
@@ -3282,7 +3282,7 @@
     (property "Reference" "R5" (id 0) (at 57.15 59.6899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "120k" (id 1) (at 57.15 62.2299 0)
+    (property "Value" "110k" (id 1) (at 57.15 62.2299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 54.61 60.96 0)
@@ -3540,7 +3540,7 @@
       (reference "C16") (unit 1) (value "1000 uF / 10 V") (footprint "Capacitor_SMD:CP_Elec_8x10")
     )
     (path "/1b346cae-2c1b-4465-97a8-a36b5cf14b51"
-      (reference "C17") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C17") (unit 1) (value "33nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/fef5535b-a542-4028-a074-282a4f9c934c"
       (reference "CN1") (unit 1) (value "DNI") (footprint "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.5_1x02_P3.50mm_Horizontal")
@@ -3612,7 +3612,7 @@
       (reference "R4") (unit 1) (value "2k2") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/efa5b69a-6ade-4964-9f49-dce704c2cbaa"
-      (reference "R5") (unit 1) (value "120k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R5") (unit 1) (value "110k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/71ec15c8-fc95-422b-90ce-e728a02a7d17"
       (reference "R6") (unit 1) (value "20k") (footprint "Resistor_SMD:R_0603_1608Metric")
